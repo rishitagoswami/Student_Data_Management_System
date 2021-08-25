@@ -62,6 +62,8 @@ void menu(){
 		break;
 		case 5: deleteData();
 		break;
+		case 6: exit(1);
+		break;
 		default: gotoxy(8, 20);
 		printf("You excited!!");
 		break;
